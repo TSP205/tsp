@@ -1,0 +1,205 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #226b71;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #efbe2e;
+}
+h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #147070;
+}
+/* General styles for the logo */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px; /* Adjust this size based on your logo's proportions */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: url('https://via.placeholder.com/1600x600') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: #efbe2e;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: white;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #efbe2e;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #efbe2e;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+/* Home Section */
+#home {
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+/* About Us Section */
+#about {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Services Section */
+#services {
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    width: 45%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #efbe2e;
+    font-size: 1.2em;
+}
+
+#contact a:hover {
+    color: #efbe2e;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #efbe2e;
+    color: rgb(24, 62, 81);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .service-item {
+        width: 80%;
+    }
+}
